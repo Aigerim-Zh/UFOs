@@ -47,11 +47,11 @@ There has been a lot of work done to take the JavaScript array and display it as
 
 **Major Drawbacks**:
 - The search criteria are case-sensitive. For example, for a search of the city of Benton, it will show results only if "benton" is entered but not "Benton".
-- The data will become outdated and it might not be the best practice to update the JavaScript array each time a new object is added. 
+- The data is most likely outdated and it might not be the best practice to update the JavaScript array each time a new sighting is added. 
 
 **Further Development Recommendations**:
 - Adding a "Submit" button after the search criteria are defined. Currently, it is not clear right away that the search will work once the Enter is clicked on the keyboard.
 - Adding a drop-down menu for the filter can present the user with more choices, especially if the user wants to explore the data in general and not look for only specific sightings.
 - Adding a "Refresh" button as it is not clear that the "USO Sightings" button is for refreshing the webpage.
 - Making the search case-insensitive. 
-- Finally, connecting the table data to a live resource. 
+- Finally, connecting the table data to a live source. 
